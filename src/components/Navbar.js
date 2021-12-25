@@ -12,7 +12,6 @@ padding:1rem 2rem;
 z-index:100; 
 position:fixed; 
 width:100%;
-background:red;
 `;  
 const NavLink = css` 
 color:#fff;
@@ -38,6 +37,7 @@ display:none ;
  position:absolute; 
  top:0; 
  right:0; 
+ color:#fff;
  transform:translate(-50%,50%)
  }
  `; 
