@@ -62,11 +62,11 @@ margin-right: 24px;
      display:none;
     }
 `;
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <Nav> 
         <Logo to="/">SB_REAL_ESTATE</Logo> 
-        <MenuBars/>  
+        <MenuBars onClick={toggle}/>  
         <NavMenu> 
         {menuData.map((item,index) =>( 
           <NavMenuLinks to={item.link} key={index}> 
